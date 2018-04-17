@@ -18,7 +18,7 @@ public class Exercise07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //Tạo đối tượng mới
+        //Tạo 9 đối tượng mới của 3 class XeTai,XeDap,Oto
         XeTai xt1 = new XeTai();
         XeTai xt2 = new XeTai();
         XeTai xt3 = new XeTai();

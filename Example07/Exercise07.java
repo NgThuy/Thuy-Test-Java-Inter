@@ -18,6 +18,7 @@ public class Exercise07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Tạo đối tượng mới
         XeTai xt1 = new XeTai();
         XeTai xt2 = new XeTai();
         XeTai xt3 = new XeTai();
@@ -27,7 +28,9 @@ public class Exercise07 {
         Oto oto1 = new Oto();
         Oto oto2 = new Oto();
         Oto oto3 = new Oto();
+        //Tạo mảng chứa các đối tượng vừa tạo
         ArrayList<VanTai> mangXe = new ArrayList<>();
+        //Thêm các đối tượng đó vào mảng
         mangXe.add(xt1);
         mangXe.add(xt2);
         mangXe.add(xt3);
@@ -37,6 +40,7 @@ public class Exercise07 {
         mangXe.add(oto1);
         mangXe.add(oto2);
         mangXe.add(oto3);
+        //Dùng vòng foreach để duyệt các phần tử trong mảng và in ra phương thức vận chuyển của từng đối tượng
         for (VanTai vt : mangXe) {
             vt.diChuyen();
         }
